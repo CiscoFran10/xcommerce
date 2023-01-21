@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-light-gray font-primary;
+	}
+}
+
+@layer utilities {
+	.container {
+		@apply max-w-[1600px] mx-auto px-6 md:px-12;
+	}
+}
