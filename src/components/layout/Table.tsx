@@ -42,7 +42,7 @@ const Table = () => {
 					/>
 				</div>
 
-				<div className="relative overflow-x-auto bg-dark-gray py-7 px-3 md:px-6 w-full min-h-[580px] ">
+				<div className="relative overflow-x-auto bg-dark-gray py-7  md:px-6 w-full min-h-[580px] ">
 					<table className="w-full text-sm min-w-[680px] text-left text-gray-200">
 						<caption className="sr-only">
 							Nossos Produtos

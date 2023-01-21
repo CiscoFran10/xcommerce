@@ -34,7 +34,7 @@ const PopularList = () => {
 						<span className="h-12 w-12 border-4 border-transparent border-t-primary-100 rounded-full animate-spin"></span>
 					</div>
 				) : (
-					<ul className="flex overflow-hidden overflow-x-auto xl:grid  xl:grid-cols-2 gap-[30px] bg-dark-gray p-[30px] w-full min-w-[427px] xl:min-h-[580px]">
+					<ul className="flex overflow-hidden overflow-x-auto xl:grid  xl:grid-cols-2 gap-[30px] bg-dark-gray p-[30px] w-full xl:min-h-[580px]">
 						{sortedData?.map(({ name, sales, price, code, id }) => (
 							<Card key={id} name={name} sales={sales} price={price} />
 						))}

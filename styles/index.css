@@ -12,6 +12,6 @@
 
 @layer utilities {
 	.container {
-		@apply max-w-[1600px] mx-auto px-6 md:px-12;
+		@apply max-w-[1600px] mx-auto px-3 md:px-12;
 	}
 }
