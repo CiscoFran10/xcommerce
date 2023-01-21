@@ -29,7 +29,7 @@ const makeServer = () => {
 				return {
 					products,
 					meta: {
-						total: schema.db.products.length / 4,
+						total: Math.ceil(schema.db.products.length / perPage),
 						page,
 						perPage,
 					},

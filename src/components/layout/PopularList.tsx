@@ -40,6 +40,12 @@ const PopularList = () => {
 						))}
 					</ul>
 				)}
+
+				<div className="w-full flex justify-end">
+					<p>
+						Página {page} de {data.meta.total}
+					</p>
+				</div>
 			</>
 		);
 	} else return null;

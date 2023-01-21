@@ -20,6 +20,7 @@ const Modal = () => {
 		onSuccess: () => {
 			setCreateProductState(true);
 			setOpen(false);
+			setInput({ name: "", code: "", sales: "", price: "", stock: "" });
 		},
 		onError: () => {
 			toast.error("Houve algum error ao criar produto");
